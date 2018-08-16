@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.amplemind.dt.unit.LoginMVVM</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.storyboardApplication</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a MVVM pattern with a simple login logic. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>mainClassName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Login View Controller Name:</string>
+			<key>Description</key>
+			<string>Class name of login view controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Login</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Base.lproj/Main.storyboard</key>
+		<dict>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+			<key>SortOrder</key>
+			<integer>99</integer>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
+		</dict>
+		<!-- Pod file -->
+		<key>../Podfile</key>
+		<dict>
+			<key>Path</key>
+			<string>Podfile</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<!-- View Model -->
+		<key>ViewModels/___VARIABLE_mainClassName___ViewModel.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___ViewModel.swift</string>
+			<key>Group</key>
+			<array>
+				<string>ViewModels</string>
+			</array>
+		</dict>
+		<!-- Model -->
+		<key>Models/UserModel.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>UserModel.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Models</string>
+			</array>
+		</dict>
+		<!-- ViewController -->
+		<key>ViewControllers/___VARIABLE_mainClassName___ViewController.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___ViewController.swift</string>
+			<key>Group</key>
+			<array>
+				<string>ViewControllers</string>
+			</array>
+		</dict>
+		<!-- Repository -->
+		<key>Repositories/___FILEBASENAME___Repository.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>___FILEBASENAME___Repository.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Repositories</string>
+			</array>
+		</dict>
+		<!-- KeyboardProtocol -->
+		<key>Protocols/KeyboardProtocol.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>KeyboardProtocol.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Protocols</string>
+			</array>
+		</dict>
+		<!-- Utils -->
+		<key>Utils/Utils.swift</key>
+		<dict>
+			<key>Path</key>
+			<string>Utils.swift</string>
+			<key>Group</key>
+			<array>
+				<string>Utils</string>
+			</array>
+		</dict>
+	</dict>
+	<!-- Custom Nodes -->
+	<key>Nodes</key>
+	<array>
+		<string>../Podfile</string>
+		<string>ViewModels/___VARIABLE_mainClassName___ViewModel.swift</string>
+		<string>Models/UserModel.swift</string>
+		<string>ViewControllers/___VARIABLE_mainClassName___ViewController.swift</string>
+		<string>Utils/Utils.swift</string>
+		<string>Repositories/___FILEBASENAME___Repository.swift</string>
+		<string>Protocols/KeyboardProtocol.swift</string>
+	</array>
+	<!-- End Custom Nodes -->
+</dict>
+</plist>
