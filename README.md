@@ -2,7 +2,7 @@
 
 #### Author: Adrian Ortiz
 
-##Introduction
+## Introduction
 
 This templates provides an initial point for a new project using MVVM pattern, also there is a login template with the most common things using in a simple login just ready to connect with your API.
 
